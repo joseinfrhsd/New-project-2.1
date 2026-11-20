@@ -14,7 +14,16 @@
 
 <script>
     const paragraphs=document.getElementsByTagName("p");
-    
+    console.log(paragraphs.length);
+    paragraphs[0].style.color="red";
+    paragraphs[1].style.color="blue";
+    paragraphs[2].style.color="green";
+    paragraphs[3].style.color="yellow";
+    paragraphs[1].textContent="Gold";
+    paragraphs[1].style.color="gold";
+    console.log(paragraphs[0].textContent);
+    console.log(paragraphs[1].textContent);
+    document.getElementsByTagName("h1")[0].textContent="Rainbow Words";
 </script>
 </body>
 </html>
